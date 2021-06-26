@@ -702,7 +702,8 @@ button:focus {
 }
 
 .feature_area {
-    margin-top: -37em
+    margin-top: -37em;
+    padding-bottom:  69px;
 }
 
 @media (max-width:991px) {
@@ -779,7 +780,7 @@ button:focus {
     transform: rotateY(180deg);
   }
 .single_department {
-    background: #f9f9f9;
+    background: black;
     padding: 40px 30px;
     margin-bottom: 30px;
     -webkit-transition: all .3s ease 0s;
@@ -798,7 +799,7 @@ button:focus {
 .single_department h4 {
     margin-top: 20px;
     margin-bottom: 0;
-    color: #000;
+    color: white;
     -webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
@@ -1105,7 +1106,6 @@ button:focus {
 .fact_area {
     position: relative;
     color: white;
-    background-image: url("../test2.jpg");
     background-size: contain;
     z-index: 1;
     padding: 120px 0 90px
@@ -4082,4 +4082,7 @@ h6 {
         text-align: left;
         margin-top: 20px
     }
+}
+.dpmt_icon{
+    color: white;
 }
