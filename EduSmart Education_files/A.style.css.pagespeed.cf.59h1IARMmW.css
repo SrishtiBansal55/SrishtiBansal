@@ -4086,3 +4086,13 @@ h6 {
 .dpmt_icon{
     color: white;
 }
+
+.about-img{
+    width: 27.5em;
+}
+
+@media (max-width:  500px){
+    .about-img{
+        width: 17.5em;
+    }
+}
